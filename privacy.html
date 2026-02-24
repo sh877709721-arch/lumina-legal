@@ -8,9 +8,11 @@
         body { font-family: -apple-system, sans-serif; line-height: 1.6; padding: 20px; max-width: 800px; margin: 0 auto; color: #333; }
         h1 { border-bottom: 2px solid #eee; padding-bottom: 10px; }
         h2 { color: #2c3e50; margin-top: 30px; }
+        h3 { color: #34495e; }
         ul { margin-bottom: 20px; }
         li { margin-bottom: 10px; }
         .footer { margin-top: 50px; border-top: 1px solid #eee; padding-top: 20px; font-size: 0.9em; color: #777; }
+        .highlight { background-color: #f9f9f9; padding: 15px; border-left: 4px solid #2c3e50; margin: 10px 0; }
     </style>
 </head>
 <body>
@@ -24,7 +26,7 @@
     
     <h3>2.1 AI Generation Data</h3>
     <ul>
-        <li><strong>Images:</strong> Photos you upload for "Image to 3D" or "Emotion Portrait" features are transmitted securely to our third-party AI providers (SiliconFlow, Tripo AI, Deepseek) solely for the purpose of generating the artwork. We do not use these images for model training or other unauthorized purposes.</li>
+        <li><strong>Images:</strong> Photos you upload for "Image to 3D" or "Emotion Portrait" features are transmitted securely to our third-party AI providers solely for the purpose of generating the artwork. We do not use these images for model training or other unauthorized purposes.</li>
         <li><strong>Voice:</strong> Voice inputs used in the "Resonance" feature are processed to generate visual effects or emotional analysis. We do not permanently store your raw voice recordings on our servers.</li>
     </ul>
 
@@ -39,21 +41,39 @@
     <h3>2.3 Cloud Synchronization</h3>
     <p>The App uses <strong>iCloud (CloudKit)</strong> to synchronize your membership status, credits, and generated assets across your devices. This data is stored in your private iCloud container, which is managed by Apple.</p>
 
-    <h2>3. Subscriptions and Payments</h2>
+    <h2>3. Third-Party AI Service Disclaimer</h2>
+    <div class="highlight">
+        <p>Our App integrates Artificial Intelligence Generated Content (AIGC) features. When using these functions, please be aware of the following data processing rules:</p>
+        <ul>
+            <li><strong>Data Transmission:</strong> To enable features such as intelligent dialogue, image generation, and 3D model construction, the text prompts, conversation content, and reference images you input/upload are transmitted to third-party AI service providers via encrypted channels.</li>
+            <li><strong>Authorized Service Providers:</strong> 
+                <ul>
+                    <li><strong>SiliconFlow / DeepSeek:</strong> Used for natural language processing, sentiment analysis, and copywriting generation.</li>
+                    <li><strong>Meshy AI / Tripo AI:</strong> Used for generating 3D models based on uploaded images.</li>
+                </ul>
+            </li>
+            <li><strong>Data Usage Restrictions:</strong> Your data is used strictly for the purpose of completing the specific generation task or analysis request. We have confirmed with the aforementioned providers that your data will <strong>not</strong> be used to train their general AI models, nor will it be disclosed or sold.</li>
+            <li><strong>PII Protection:</strong> We do not transmit your Personally Identifiable Information (PII), such as your name, phone number, or precise geographic location, to AI service providers.</li>
+            <li><strong>User Control:</strong> You have the right to opt-out of using AI features. Upon the first launch of the App, we will request your explicit authorization. If you decline, you may still use the App’s basic offline features (e.g., local decompression/extraction), but AI-related functions will be unavailable.</li>
+        </ul>
+    </div>
+
+    <h2>4. Subscriptions and Payments</h2>
     <p>All financial transactions (subscriptions and credit purchases) are handled securely by Apple via the App Store. We do not collect or store your credit card information.</p>
 
-    <h2>4. Data Retention and Deletion</h2>
+    <h2>5. Data Retention and Deletion</h2>
     <p>We retain your generated content only as long as necessary to provide the service. You have the right to delete your account and all associated data at any time via the "Delete Account" option in the App's settings (User Profile).</p>
 
-    <h2>5. Third-Party Services</h2>
-    <p>We may use the following third-party services to support our App's functionality:</p>
+    <h2>6. Third-Party Services</h2>
+    <p>We use the following third-party services to support our App's functionality:</p>
     <ul>
-        <li><strong>SiliconFlow / Tripo AI / Deepseek:</strong> For AI content generation.</li>
+        <li><strong>SiliconFlow / DeepSeek:</strong> For NLP and text generation.</li>
+        <li><strong>Meshy AI / Tripo AI:</strong> For 3D content generation.</li>
         <li><strong>WeChat SDK:</strong> For social sharing and logging in (if applicable).</li>
     </ul>
 
     <div class="footer">
-        <h2>6. Contact Us</h2>
+        <h2>7. Contact Us</h2>
         <p>If you have any questions about this Privacy Policy, please contact us at:</p>
         <p>Email: <a href="mailto:877709721@qq.com">877709721@qq.com</a></p>
     </div>
